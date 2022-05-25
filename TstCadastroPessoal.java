@@ -63,7 +63,7 @@ public class TstCadastroPessoal{
 		Bagagem bag = new Bagagem();
 		System.out.println("\n----INFORMACOES BAGAGEM----");
 		bag.setQuantidade(2);
-		bag.setDetalhe("Itens Frágeis - CUIDADO !");
+		bag.setDetalhe("Itens Frágeis ! CUIDADO !");
 
 		System.out.println("Quantidade de bagagens: " +bag.getQuantidade());
 		System.out.println("Detalhe da bagagem: " +bag.getDetalhe());
